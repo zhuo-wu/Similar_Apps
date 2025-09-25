@@ -1,0 +1,106 @@
+name: "App Similarity Verification"
+description: "Fill out this form to verify whether a detected app pair is similar."
+title: "[Verification] Pair ID: <pair_xxx>"
+labels: ["verification", "manual-check"]
+body:
+  - type: input
+    id: cluster_id
+    attributes:
+      label: "Cluster ID"
+      description: "Enter the cluster ID (e.g., cluster_001)"
+      placeholder: "cluster_001"
+    validations:
+      required: true
+
+  - type: input
+    id: app_001
+    attributes:
+      label: "App A"
+      description: "APK file name"
+      placeholder: "app_001.apk"
+    validations:
+      required: true
+
+  - type: input
+    id: app_002
+    attributes:
+      label: "App B"
+      description: "APK file name"
+      placeholder: "app_002.apk"
+    validations:
+      required: true
+
+  - type: input
+    id: package_a
+    attributes:
+      label: "App 001 Package"
+      placeholder: "com.xxx.appA"
+
+  - type: input
+    id: package_b
+    attributes:
+      label: "App 002 Package"
+      placeholder: "com.yyy.appB"
+
+  - type: dropdown
+    id: icon_name
+    attributes:
+      label: "1. Icon/Name Similar?"
+      options:
+        - "Yes"
+        - "No"
+        - "Not Checked"
+
+  - type: dropdown
+    id: ui_layout
+    attributes:
+      label: "2. UI Layout/Style Similar?"
+      options:
+        - "Yes"
+        - "No"
+        - "Not Checked"
+
+  - type: dropdown
+    id: core_function
+    attributes:
+      label: "3. Core Functionality Similar?"
+      options:
+        - "Yes"
+        - "No"
+        - "Not Checked"
+
+  - type: dropdown
+    id: permissions
+    attributes:
+      label: "4. Permissions Overlap?"
+      options:
+        - "Yes"
+        - "No"
+        - "Not Checked"
+
+  - type: dropdown
+    id: signature
+    attributes:
+      label: "5. Signature Match?"
+      options:
+        - "Same"
+        - "Different"
+        - "Not Checked"
+
+  - type: dropdown
+    id: stability
+    attributes:
+      label: "6. Runtime Stability"
+      options:
+        - "Normal"
+        - "Crashes"
+        - "Not Checked"
+
+  - type: textarea
+    id: final_decision
+    attributes:
+      label: "Final Decision"
+      description: "Summarize your conclusion (e.g., Highly Similar, Weakly Similar, Not Similar)"
+      placeholder: "Highly Similar"
+    validations:
+      required: true
