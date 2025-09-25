@@ -47,54 +47,54 @@ body:
     attributes:
       label: "1. Icon/Name Similar?"
       options:
-        - Yes
-        - No
-        - Not Checked
+        - "Yes"
+        - "No"
+        - "Not Checked"
 
   - type: dropdown
     id: ui_layout
     attributes:
       label: "2. UI Layout/Style Similar?"
       options:
-        - Yes
-        - No
-        - Not Checked
+        - "Yes"
+        - "No"
+        - "Not Checked"
 
   - type: dropdown
     id: core_function
     attributes:
       label: "3. Core Functionality Similar?"
       options:
-        - Yes
-        - No
-        - Not Checked
+        - "Yes"
+        - "No"
+        - "Not Checked"
 
   - type: dropdown
     id: permissions
     attributes:
       label: "4. Permissions Overlap?"
       options:
-        - Yes
-        - No
-        - Not Checked
+        - "Yes"
+        - "No"
+        - "Not Checked"
 
   - type: dropdown
     id: signature
     attributes:
       label: "5. Signature Match?"
       options:
-        - Same
-        - Different
-        - Not Checked
+        - "Same"
+        - "Different"
+        - "Not Checked"
 
   - type: dropdown
     id: stability
     attributes:
       label: "6. Runtime Stability"
       options:
-        - Normal
-        - Crashes
-        - Not Checked
+        - "Normal"
+        - "Crashes"
+        - "Not Checked"
 
   - type: textarea
     id: final_decision
