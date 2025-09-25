@@ -9,10 +9,11 @@ It is designed for researchers and developers working on application similarity 
 
 ```
 /samples
-  ├── pair_001/
+  ├── cluster_001/
   │   ├── app_A.apk
   │   ├── app_B.apk
-  ├── pair_002/
+  │   ├── app_C.apk
+  ├── cluster_002/
   │   ├── app_A.apk
   │   ├── app_B.apk
   ...
@@ -20,7 +21,8 @@ It is designed for researchers and developers working on application similarity 
   └── emulator_setup_guide.md
 ```
 
-- **/samples/**: Contains detected similar app pairs. Each folder includes two APKs (`app_A.apk`, `app_B.apk`).
+- **/samples/**: Contains clusters of potentially similar applications.  
+  Each cluster folder includes **two or more APKs**.  
 - **/tools/**: Provides supporting materials, such as emulator setup guides or helper scripts.
 
 ---
