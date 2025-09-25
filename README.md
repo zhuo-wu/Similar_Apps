@@ -25,7 +25,7 @@ It is designed for researchers and developers working on application similarity 
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 1. **Install an Android Emulator** (choose one of the following options):  
    - [Android Studio Emulator (official)](https://developer.android.com/studio/run/emulator)  
