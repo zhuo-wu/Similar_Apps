@@ -81,12 +81,21 @@ For each pair in `/samples/`:
 
 ---
 
-##  Verification Questions
+##  Verification Submission
 
-After running both apps, please answer the following:
+After running both apps, please submit your evaluation result as a **GitHub Issue**.
 
-1. Do both apps provide the **same primary functionality**?  
-2. Are the **UI layouts** and navigation flows largely identical?  
-3. Do the apps reuse **icons, images, or textual resources**?  
-4. Are the **interactions and behaviors** (e.g., login flow, search results) similar?  
-5. Based on your observation, would you classify the pair as **similar applications**?  
+### How to Submit
+
+1. Go to the repository's [Issues page](../../issues).
+2. Click **New Issue** → choose **App Similarity Verification**.
+3. Fill in the form with the following information:
+   - Pair ID (e.g., pair_001)
+   - App A / App B info
+   - Answers to the similarity checks (UI, functionality, resources, etc.)
+   - Your final decision (e.g., Highly Similar / Weakly Similar / Not Similar)
+
+We provide a standardized issue form in  
+`.github/ISSUE_TEMPLATE/verification.yml`  
+so all results follow the same structure.
+
