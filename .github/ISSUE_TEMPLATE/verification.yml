@@ -4,42 +4,42 @@ title: "[Verification] Pair ID: <pair_xxx>"
 labels: ["verification", "manual-check"]
 body:
   - type: input
-    id: pair_id
+    id: cluster_id
     attributes:
-      label: "Pair ID"
-      description: "Enter the pair ID (e.g., pair_001)"
-      placeholder: "pair_001"
+      label: "Cluster ID"
+      description: "Enter the cluster ID (e.g., cluster_001)"
+      placeholder: "cluster_001"
     validations:
       required: true
 
   - type: input
-    id: app_a
+    id: app_001
     attributes:
-      label: "App A"
+      label: "App 001"
       description: "APK file name"
-      placeholder: "app_A.apk"
+      placeholder: "app_001.apk"
     validations:
       required: true
 
   - type: input
-    id: app_b
+    id: app_002
     attributes:
-      label: "App B"
+      label: "App 002"
       description: "APK file name"
-      placeholder: "app_B.apk"
+      placeholder: "app_002.apk"
     validations:
       required: true
 
   - type: input
     id: package_a
     attributes:
-      label: "App A Package"
+      label: "App 001 Package"
       placeholder: "com.xxx.appA"
 
   - type: input
     id: package_b
     attributes:
-      label: "App B Package"
+      label: "App 002 Package"
       placeholder: "com.yyy.appB"
 
   - type: dropdown
