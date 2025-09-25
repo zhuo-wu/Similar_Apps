@@ -10,12 +10,12 @@ It is designed for researchers and developers working on application similarity 
 ```
 /samples
   ├── cluster_001/
-  │   ├── app_A.apk
-  │   ├── app_B.apk
-  │   ├── app_C.apk
+  │   ├── app_001.apk
+  │   ├── app_002.apk
+  │   ├── app_003.apk
   ├── cluster_002/
-  │   ├── app_A.apk
-  │   ├── app_B.apk
+  │   ├── app_001.apk
+  │   ├── app_002.apk
   ...
 /tools
   └── emulator_setup_guide.md
@@ -46,8 +46,8 @@ It is designed for researchers and developers working on application similarity 
    - Install apps via:
 
      ```bash
-     adb install path/to/app_A.apk
-     adb install path/to/app_B.apk
+     adb install path/to/app_001.apk
+     adb install path/to/app_002.apk
      ```
 
 3. **(Optional)** Use a physical Android device for more realistic performance and interaction.
@@ -56,7 +56,7 @@ It is designed for researchers and developers working on application similarity 
 
 ##  Running the Evaluation
 
-For each pair in `/samples/`:
+For each cluster in `/samples/`:
 
 ### Step 1: App Launch
 
@@ -96,7 +96,7 @@ After running both apps, please submit your evaluation result as a **GitHub Issu
 2. Click **New Issue** → choose **App Similarity Verification**.
 3. Fill in the form with the following information:
    - Pair ID (e.g., pair_001)
-   - App A / App B info
+   - App 001 / App 002 info
    - Answers to the similarity checks (UI, functionality, resources, etc.)
    - Your final decision (e.g., Highly Similar / Weakly Similar / Not Similar)
 
