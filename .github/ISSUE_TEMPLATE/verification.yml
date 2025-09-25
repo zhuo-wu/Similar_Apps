@@ -15,7 +15,7 @@ body:
   - type: input
     id: app_001
     attributes:
-      label: "App 001"
+      label: "App A"
       description: "APK file name"
       placeholder: "app_001.apk"
     validations:
@@ -24,7 +24,7 @@ body:
   - type: input
     id: app_002
     attributes:
-      label: "App 002"
+      label: "App B"
       description: "APK file name"
       placeholder: "app_002.apk"
     validations:
