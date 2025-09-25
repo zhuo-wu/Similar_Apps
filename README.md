@@ -25,12 +25,15 @@ It is designed for researchers and developers working on application similarity 
 
 ---
 
-##  Environment Setup
+## ⚙️ Environment Setup
 
-1. **Install Android Studio** or use the [Android Emulator](https://developer.android.com/studio/run/emulator).  
+1. **Install an Android Emulator** (choose one of the following options):  
+   - [Android Studio Emulator (official)](https://developer.android.com/studio/run/emulator)  
+   - [LDPlayer Emulator](https://www.ldmnq.com/)  
+   - (Optional) Other third-party emulators such as [BlueStacks](https://www.bluestacks.com/)  
 
-   - Recommended Android version: **Android 11 (API 30)** or later.  
-   - Ensure Google Play Services are available for apps requiring authentication.  
+   > Note: For research reproducibility, we recommend using **Android Studio Emulator** first.  
+   > Third-party emulators may differ in performance or compatibility.
 
 2. **Set up an emulator**:
 
