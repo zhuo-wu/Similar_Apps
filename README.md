@@ -3,6 +3,12 @@
 This repository provides tools, sample app pairs, and guidelines for **manual verification of app similarity**.  
 It is designed for researchers and developers working on application similarity detection.
 
+APK samples are **not included in this repository**.  
+They are hosted on Hugging Face:
+
+ [Hugging Face — zhuowu / Similar_Apps](https://huggingface.co/datasets/zhuowu/Similar_Apps/tree/main)
+
+After downloading, organize them into cluster folders under `/samples/`:
 ---
 
 ## Repository Structure
