@@ -95,7 +95,7 @@ After running both apps, please submit your evaluation result as a **GitHub Issu
 1. Go to the repository's [Issues page](../../issues).
 2. Click **New Issue** → choose **App Similarity Verification**.
 3. Fill in the form with the following information:
-   - Pair ID (e.g., pair_001)
+   - Pair ID (e.g., cluster_001)
    - App 001 / App 002 info
    - Answers to the similarity checks (UI, functionality, resources, etc.)
    - Your final decision (e.g., Highly Similar / Weakly Similar / Not Similar)
