@@ -110,3 +110,11 @@ We provide a standardized issue form in
 `.github/ISSUE_TEMPLATE/verification.yml`  
 so all results follow the same structure.
 
+
+## Example of Similar Apps
+
+The following are sample app pairs from the dataset that exhibit notable similarity in UI design, layout, and functionality.
+
+| App Pair | Screenshots |
+|:--:|:--:|
+| **Cluster 001** | <img src="docs/examples/cluster_001.png" width="400"/> |
