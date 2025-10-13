@@ -117,4 +117,4 @@ The following are sample app pairs from the dataset that exhibit notable similar
 
 | App Pair | Screenshots |
 |:--:|:--:|
-| **Cluster 001** | <img src="docs/examples/cluster_001.png" width="400"/> |
+| **Cluster 001** | <img src="sample1.png" width="400"/> |
